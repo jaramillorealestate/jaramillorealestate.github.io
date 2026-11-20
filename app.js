@@ -1171,3 +1171,11 @@ document.getElementById('app').innerHTML = shell((pages[page] || pages.home)());
 const toggle = document.querySelector('.nav-toggle');
 const links = document.querySelector('.nav-links');
 toggle?.addEventListener('click', () => { const open = links.classList.toggle('open'); toggle.setAttribute('aria-expanded', String(open)); toggle.textContent = open ? '×' : '☰'; });
+
+// Meta Pixel events
+(function(){ if(!window.fbq) return; const p=document.body.dataset.page||'home'; const prop=document.querySelector('.property-hero h1');
+ if(prop) fbq('track','ViewContent',{content_name:prop.textContent.trim(),content_category:'Propiedad',content_ids:[p]});
+ document.addEventListener('click',e=>{const a=e.target.closest('a'); if(!a) return; const h=a.href||'';
+  if(h.includes('wa.me')) fbq('track','Contact',{content_name:prop?prop.textContent.trim():p,method:'WhatsApp'});
+  else if(h.includes('docs.google.com/forms')) fbq('track','Lead',{content_name:prop?prop.textContent.trim():p,method:'Formulario'});
+ });})();
