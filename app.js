@@ -402,7 +402,9 @@ const pages = {
       ['Condiciones generales','Estrato 5. La propiedad se reporta desocupada y disponible para la venta. La información, los costos y la disponibilidad se reconfirman antes de coordinar una visita.']
     ],
     access:'La Estrella, en el sector general de la Variante a Caldas. La dirección exacta, el nombre de la parcelación y las indicaciones de ingreso se comparten únicamente al coordinar una visita.',
-    gallery:[ESTRELLA_NEW_PHOTOS[0], ...ESTRELLA_EDITED_PHOTOS.slice(0, 6), ...ESTRELLA_NEW_PHOTOS.slice(1), ...ESTRELLA_EDITED_PHOTOS.slice(6)],
+    // Edited galleries (assets/estrella-gallery-v1, -v2) were never uploaded; restore this line once they are.
+    // gallery:[ESTRELLA_NEW_PHOTOS[0], ...ESTRELLA_EDITED_PHOTOS.slice(0, 6), ...ESTRELLA_NEW_PHOTOS.slice(1), ...ESTRELLA_EDITED_PHOTOS.slice(6)],
+    gallery:ESTRELLA_PHOTOS,
     virtualStagingNote:'Algunas fotografías incluyen mobiliario añadido digitalmente para ayudar a visualizar el uso del espacio. La arquitectura, distribución y acabados permanentes no fueron modificados.',
     details:false
   }),
