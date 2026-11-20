@@ -404,7 +404,7 @@ const pages = {
     access:'La Estrella, en el sector general de la Variante a Caldas. La dirección exacta, el nombre de la parcelación y las indicaciones de ingreso se comparten únicamente al coordinar una visita.',
     // Edited galleries (assets/estrella-gallery-v1, -v2) were never uploaded; restore this line once they are.
     // gallery:[ESTRELLA_NEW_PHOTOS[0], ...ESTRELLA_EDITED_PHOTOS.slice(0, 6), ...ESTRELLA_NEW_PHOTOS.slice(1), ...ESTRELLA_EDITED_PHOTOS.slice(6)],
-    recorridoHeading:'Conoce la casa en video',
+    recorridoHeading:'Conozca la casa en video',
     videos:[{src:'assets/la-estrella/recorrido.mp4', poster:'assets/la-estrella/video-poster.jpg', title:'Casa campestre en La Estrella · $2.250 millones COP'}],
     gallery:ESTRELLA_PHOTOS,
     virtualStagingNote:'Algunas fotografías incluyen mobiliario añadido digitalmente para ayudar a visualizar el uso del espacio. La arquitectura, distribución y acabados permanentes no fueron modificados.',
