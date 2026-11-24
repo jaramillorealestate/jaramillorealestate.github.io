@@ -580,7 +580,7 @@ const pages = {
       ['Lote 7 · 4.175 m²','$310.000.000 COP.'],
       ['Finca completa','Los siete lotes disponibles por $2.250.000.000 COP. Precios negociables; consulte las condiciones de forma privada.']
     ],
-    access:'Ubicados en Santuario, Oriente Antioqueño. La ruta de acceso, el punto de encuentro y la ubicación exacta se comparten al coordinar una visita.',
+    access:'Ubicados en Santuario, Oriente Antioqueño, a unos 15 minutos en carro del pueblo por la autopista Medellín–Bogotá. La ruta de acceso, el punto de encuentro y la ubicación exacta se comparten al coordinar una visita.',
     hideUses:true,
     details:false
   }),
