@@ -547,6 +547,46 @@ const pages = {
   "hideUses": true,
   "details": false
 }),
+  lomaBernal: () => propertyPage({
+    draft:'DISPONIBLE · NEGOCIABLE',
+    name:'Apartamento en Loma de los Bernal',
+    location:'Loma de los Bernal · Medellín, Colombia',
+    price:'$490.000.000 COP',
+    usd:'Precio negociable, en pesos colombianos (≈ USD 148.000 como referencia).',
+    heroImage:'assets/apartamento-loma-bernal/03.webp',
+    heroAlt:'Sala con muro en piedra y ventanal hacia los árboles · apartamento en Loma de los Bernal',
+    storyHeading:'La ubicación de Loma de los Bernal, con los beneficios de estrato 4',
+    story:'Un apartamento de 57 m² listo para habitar, con sala-comedor iluminada por un ventanal hacia los árboles, cocina integral con red de gas y horno empotrado, dos habitaciones con clóset y un baño con división en vidrio. Pisos en porcelanato, iluminación LED empotrada y muros en piedra decorativa. Incluye dos parqueaderos y cuarto útil, algo poco común en un apartamento de este tamaño. Al ser estrato 4, disfrutas la ubicación de Loma de los Bernal con servicios públicos e impuesto predial de estrato 4.',
+    facts:['57 m² / 614 ft²','2','1','2','Incluido','4'],
+    labels:['Área del apartamento','Habitaciones','Baños','Parqueaderos','Cuarto útil','Estrato'],
+    recorridoHeading:'Recorre el apartamento',
+    videos:[{src:'assets/apartamento-loma-bernal/recorrido.mp4', poster:'assets/apartamento-loma-bernal/video-poster.jpg', title:'Apartamento en Loma de los Bernal · $490 millones COP'}],
+    gallery:[
+      {src:'assets/apartamento-loma-bernal/01.webp', alt:'Cocina integral y sala con ventanal · Loma de los Bernal', caption:'Cocina integral abierta a la sala'},
+      {src:'assets/apartamento-loma-bernal/02.webp', alt:'Cocina con vista hacia la sala y el ventanal · Loma de los Bernal', caption:'Cocina con red de gas y vista a la sala'},
+      {src:'assets/apartamento-loma-bernal/03.webp', alt:'Sala con muro en piedra y ventanal hacia los árboles · Loma de los Bernal', caption:'Sala con muro en piedra y ventanal'},
+      {src:'assets/apartamento-loma-bernal/04.webp', alt:'Sala-comedor hacia la cocina · Loma de los Bernal', caption:'Sala-comedor'},
+      {src:'assets/apartamento-loma-bernal/05.webp', alt:'Cocina integral con horno empotrado · Loma de los Bernal', caption:'Cocina integral con horno empotrado'},
+      {src:'assets/apartamento-loma-bernal/06.webp', alt:'Habitación con muro en piedra y ventana · Loma de los Bernal', caption:'Habitación principal'},
+      {src:'assets/apartamento-loma-bernal/07.webp', alt:'Habitación con muro en piedra · Loma de los Bernal', caption:'Habitación principal'},
+      {src:'assets/apartamento-loma-bernal/08.webp', alt:'Segunda habitación con clóset y ventana · Loma de los Bernal', caption:'Segunda habitación con clóset'},
+      {src:'assets/apartamento-loma-bernal/09.webp', alt:'Habitación con clóset en madera · Loma de los Bernal', caption:'Clóset en madera'},
+      {src:'assets/apartamento-loma-bernal/10.webp', alt:'Baño con división en vidrio · Loma de los Bernal', caption:'Baño con división en vidrio'}
+    ],
+    detailsHeading:'Características del apartamento',
+    fullDetails:[
+      ['Distribución','57 m² (614 ft² aprox.): sala-comedor, cocina integral, dos habitaciones con clóset, un baño y cuarto útil.'],
+      ['Cocina','Cocina integral con estufa a gas, red de gas, horno empotrado y campana extractora.'],
+      ['Acabados','Piso en porcelanato, iluminación LED empotrada, cornisas y muros en piedra decorativa.'],
+      ['Parqueaderos y cuarto útil','Dos parqueaderos (uno cubierto y uno descubierto) y cuarto útil.'],
+      ['Estrato 4','Ubicación en Loma de los Bernal con servicios públicos e impuesto predial de estrato 4.'],
+      ['Precio de venta','$490.000.000 COP, negociable. Escríbeme para conocer el piso, la administración, las zonas comunes y coordinar una visita.']
+    ],
+    accessHeading:'Loma de los Bernal, Medellín',
+    access:'Sector residencial de Loma de los Bernal, en Medellín, con comercio y vías principales cercanas. La ubicación exacta y las indicaciones de ingreso se comparten al coordinar una visita.',
+    hideUses:true,
+    details:false
+  }),
   santuario: () => propertyPage({
     draft:'DISPONIBLE · 7 LOTES CAMPESTRES',
     name:'Lotes campestres en Santuario',
@@ -1104,6 +1144,7 @@ const pages = {
 function pageHero(title, text) { return `<section class="page-hero"><div class="container"><h1>${title}</h1><p class="lead">${text}</p></div></section>`; }
 
 function propertyCards() { return [
+  ['apartamento-loma-de-los-bernal.html','Apartamento en Loma de los Bernal · $490 millones COP','Medellín · 57 m² · 2 habitaciones · 2 parqueaderos','assets/apartamento-loma-bernal/01.webp','Cocina integral abierta a la sala del apartamento en Loma de los Bernal','Disponible · negociable'],
   ['lotes-santuario.html','Lotes campestres en Santuario · desde $295 millones COP','Santuario · 7 lotes desde 3.928 m²','assets/lotes-santuario/foto-1.webp','Lote campestre con vista a las montañas en Santuario','Disponible'],
   ['local-billares-guarne.html','Local de billares · $750 millones COP','Guarne · 217 m² · a tres cuadras del parque principal','assets/billares-guarne/01-salon.webp','Salón de billares y barra del local en Guarne','Disponible · negociable'],
   ["apartamento-sabaneta.html", "Apartamento remodelado · $500 millones COP", "Sabaneta · 58 m² · 2 habitaciones · 2 baños", "assets/apartamento-sabaneta-500m/01.webp", "Balcón del apartamento con vista a las montañas en Sabaneta", "Disponible"],
