@@ -547,6 +547,46 @@ const pages = {
   "hideUses": true,
   "details": false
 }),
+  fincaPenol: () => propertyPage({
+    draft:'DISPONIBLE · AMOBLADA',
+    name:'Finca con vista a la Piedra del Peñol',
+    location:'El Peñol · Oriente Antioqueño, Colombia',
+    price:'$980.000.000 COP',
+    usd:'Precio de venta en pesos colombianos (≈ USD 296.000 como referencia). La propietaria acepta el pago en dólares en Estados Unidos o una casa en Envigado como parte del pago.',
+    heroImage:'assets/finca-penol/01.webp',
+    heroAlt:'Casa de la finca en ladrillo y piedra con vista a las montañas de El Peñol',
+    storyHeading:'Despierta frente a la Piedra del Peñol.',
+    story:'Una finca de 3.750 m² con casa de 120 m² de apenas un año de construida, que se entrega amoblada. Tres habitaciones, dos baños, cocina abierta con isla y una carpintería en roble macizo que se repite en puertas, ventanas y camas. Desde el corredor y la terraza en la cubierta se ve la Piedra del Peñol y el paisaje del Oriente Antioqueño. Incluye establo para caballos, gallinero y huerta, para vivir el campo de verdad sin renunciar a los buenos acabados.',
+    facts:['3.750 m² / 40.365 ft²','120 m² / 1.292 ft²','3','2','Amoblada','Piedra del Peñol'],
+    labels:['Lote · 0,93 acres aprox.','Casa · 1 año de construida','Habitaciones','Baños','Se entrega con muebles','Vista'],
+    recorridoHeading:'Recorre la finca',
+    videos:[{src:'assets/finca-penol/recorrido.mp4', poster:'assets/finca-penol/video-poster.jpg', title:'Finca con vista a la Piedra del Peñol · $980 millones COP'}],
+    gallery:[
+      {src:'assets/finca-penol/01.webp', alt:'Casa en ladrillo y piedra con corredor y vista a las montañas · finca en El Peñol', caption:'La casa y su corredor con vista'},
+      {src:'assets/finca-penol/02.webp', alt:'Fachada principal con parqueadero cubierto y patio en gravilla · finca en El Peñol', caption:'Fachada y parqueadero cubierto'},
+      {src:'assets/finca-penol/03.webp', alt:'Terraza en la cubierta con vista al paisaje de El Peñol', caption:'Terraza en la cubierta'},
+      {src:'assets/finca-penol/04.webp', alt:'Sala con muebles blancos y puerta en roble hacia el exterior · finca en El Peñol', caption:'Sala'},
+      {src:'assets/finca-penol/05.webp', alt:'Sala con televisor, comedor y cocina al fondo · finca en El Peñol', caption:'Sala, comedor y cocina'},
+      {src:'assets/finca-penol/06.webp', alt:'Zona social abierta con comedor y ventanas en roble · finca en El Peñol', caption:'Zona social abierta'},
+      {src:'assets/finca-penol/07.webp', alt:'Cocina abierta con isla y lámparas colgantes · finca en El Peñol', caption:'Cocina abierta con isla'},
+      {src:'assets/finca-penol/08.webp', alt:'Habitación con cama en roble y techo en madera · finca en El Peñol', caption:'Habitación con cama en roble'}
+    ],
+    detailsHeading:'Características de la finca',
+    fullDetails:[
+      ['Lote y casa','Lote de 3.750 m² (0,93 acres aprox.) con casa de 120 m² (1.292 ft² aprox.) de un año de construida: tres habitaciones, dos baños, sala, comedor y cocina abierta con isla.'],
+      ['Acabados','Carpintería en roble macizo en puertas, ventanas y camas, pisos en porcelanato y acabados de alta gama.'],
+      ['Se entrega amoblada','La finca se vende con sus muebles, lista para habitar o disfrutar como casa de descanso.'],
+      ['Corredor y terraza','Corredor con baranda y vista a la Piedra del Peñol, y terraza en la cubierta con puntos de agua, energía y gas.'],
+      ['Vida de campo','Establo para caballos, gallinero y huerta.'],
+      ['Servicios','Energía, agua, internet y gas. Estrato 3.'],
+      ['Formas de pago','Precio: $980.000.000 COP. La propietaria acepta recibir el pago en dólares en Estados Unidos, o una casa en Envigado como parte del pago, previa evaluación. La escritura refleja el precio real de la compraventa.'],
+      ['Condiciones generales','La propietaria reporta título limpio, sin gravámenes. El comprador realiza su propia debida diligencia legal y técnica antes de avanzar.']
+    ],
+    accessHeading:'El Peñol, Oriente Antioqueño',
+    access:'Zona rural de El Peñol, en el Oriente Antioqueño, con acceso por la vía principal de la vereda. La ubicación exacta y las indicaciones de ingreso se comparten al coordinar una visita.',
+    hideUses:true,
+    details:false
+  }),
   lomaBernal: () => propertyPage({
     draft:'DISPONIBLE · NEGOCIABLE',
     name:'Apartamento en Loma de los Bernal',
@@ -998,8 +1038,8 @@ const pages = {
     draft:'DISPONIBLE · PARA REFORMA TOTAL',
     name:'Penthouse dúplex en El Poblado',
     location:'Loma de Los González · El Poblado, Medellín',
-    price:'Precio bajo consulta',
-    usd:'El precio, la disponibilidad y las condiciones de venta se confirman de forma privada antes de coordinar una visita.',
+    price:'$1.790 millones COP',
+    usd:'Precio de venta en pesos colombianos. La disponibilidad y las condiciones de venta se confirman antes de coordinar una visita.',
     heroImage:'assets/poblado-penthouse/01_hero_staircase_city_view.jpg',
     heroAlt:'Penthouse dúplex en El Poblado con escalera interior y vista urbana',
     story:'Un penthouse dúplex de más de 270 m² en la Loma de Los González, pensado para quien busca amplitud, privacidad y la oportunidad de crear una residencia completamente a su medida. La propiedad está para reformar en su totalidad y se encuentra en un edificio de baja densidad, con solo 12 apartamentos, muy cerca del centro comercial Oviedo. Sus dos niveles reúnen áreas sociales generosas, terrazas, espacios de trabajo y ambientes flexibles que permiten proyectar una renovación integral con identidad propia.',
@@ -1014,7 +1054,7 @@ const pages = {
       ['Terrazas y conexión exterior','Varios espacios se conectan con terrazas cubiertas y abiertas, vegetación y luz natural, creando posibilidades para zonas de descanso, comedor exterior y entretenimiento.'],
       ['Sauna y áreas complementarias','La propiedad incluye un sauna en madera, además de espacios auxiliares que pueden integrarse al nuevo diseño durante la reforma.'],
       ['Edificio y acceso','Ubicado en un edificio de solo 12 apartamentos. La propiedad cuenta con acceso por ascensor y entrada privada, según lo observado durante la visita.'],
-      ['Condiciones de venta','El precio, la disponibilidad, la administración y las condiciones específicas de venta se confirman de manera privada. El comprador deberá realizar su propia debida diligencia legal, financiera y técnica.']
+      ['Condiciones de venta','Precio de venta: $1.790 millones COP. La disponibilidad, la administración y las condiciones específicas de venta se confirman antes de coordinar una visita. El comprador deberá realizar su propia debida diligencia legal, financiera y técnica.']
     ],
     access:'Ubicado en la Loma de Los González, El Poblado, Medellín, muy cerca del centro comercial Oviedo y de los servicios del sector. La dirección exacta y las indicaciones de ingreso se comparten únicamente al coordinar una visita.',
     gallery:[
@@ -1144,13 +1184,14 @@ const pages = {
 function pageHero(title, text) { return `<section class="page-hero"><div class="container"><h1>${title}</h1><p class="lead">${text}</p></div></section>`; }
 
 function propertyCards() { return [
+  ['finca-vista-piedra-del-penol.html','Finca con vista a la Piedra del Peñol · $980 millones COP','El Peñol · 3.750 m² · 3 habitaciones · amoblada','assets/finca-penol/01.webp','Casa de la finca con corredor y vista a las montañas de El Peñol','Disponible'],
   ['apartamento-loma-de-los-bernal.html','Apartamento en Loma de los Bernal · $490 millones COP','Medellín · 57 m² · 2 habitaciones · 2 parqueaderos','assets/apartamento-loma-bernal/01.webp','Cocina integral abierta a la sala del apartamento en Loma de los Bernal','Disponible · negociable'],
   ['lotes-santuario.html','Lotes campestres en Santuario · desde $295 millones COP','Santuario · 7 lotes desde 3.928 m²','assets/lotes-santuario/foto-1.webp','Lote campestre con vista a las montañas en Santuario','Disponible'],
   ['local-billares-guarne.html','Local de billares · $750 millones COP','Guarne · 217 m² · a tres cuadras del parque principal','assets/billares-guarne/01-salon.webp','Salón de billares y barra del local en Guarne','Disponible · negociable'],
   ["apartamento-sabaneta.html", "Apartamento remodelado · $500 millones COP", "Sabaneta · 58 m² · 2 habitaciones · 2 baños", "assets/apartamento-sabaneta-500m/01.webp", "Balcón del apartamento con vista a las montañas en Sabaneta", "Disponible"],
   ['lote-copacabana.html','Lote urbano en Copacabana · USD $2,600,000','Copacabana · 8.805 m² · Potencial residencial y comercial','assets/copacabana/photo-1.webp','Terreno abierto del lote urbano en Copacabana','Disponible'],
   ['apartaestudio-el-poblado.html','Apartaestudio amoblado · $710 millones COP','Lalinde · El Poblado · 1 habitación · 2 parqueaderos','assets/apartaestudio-lalinde/02.webp','Sala y cocina abierta del apartaestudio amoblado en El Poblado','Disponible'],
-  ['penthouse-el-poblado.html','Penthouse dúplex en El Poblado','Loma de Los González · Más de 270 m²','assets/poblado-penthouse/01_hero_staircase_city_view.jpg','Penthouse dúplex en El Poblado con escalera interior y vista urbana','Disponible · para reforma total'],
+  ['penthouse-el-poblado.html','Penthouse dúplex en El Poblado · $1.790 millones COP','Loma de Los González · Más de 270 m²','assets/poblado-penthouse/01_hero_staircase_city_view.jpg','Penthouse dúplex en El Poblado con escalera interior y vista urbana','Disponible · para reforma total'],
   ['hotel-campestre-guarne.html','Hotel campestre en Guarne · $6.600 millones COP','Guarne · 13.026 m² · 6 cabañas','assets/hotel-campestre-guarne/aerial-edited.jpg','Vista aérea del Hotel campestre en Guarne','Disponible'],
   ['duplex-sabaneta.html','Dúplex en Aves María · $860 millones COP','Sabaneta · 114 m² · 3 habitaciones','assets/sabaneta/kitchen-horizontal-card.jpg','Cocina reformada del dúplex en Sabaneta','Disponible'],
   ['finca-bonilla.html','Finca Bonilla','Vereda Bonilla · El Peñol','assets/bonilla/hero-exterior.jpg','Vista exterior de Finca Bonilla','Disponible'],
