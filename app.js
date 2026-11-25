@@ -568,9 +568,9 @@ const pages = {
       {src:'assets/apartamento-loma-bernal/04.webp', alt:'Sala-comedor hacia la cocina · Loma de los Bernal', caption:'Sala-comedor'},
       {src:'assets/apartamento-loma-bernal/05.webp', alt:'Cocina integral con horno empotrado · Loma de los Bernal', caption:'Cocina integral con horno empotrado'},
       {src:'assets/apartamento-loma-bernal/06.webp', alt:'Habitación con muro en piedra y ventana · Loma de los Bernal', caption:'Habitación principal'},
-      {src:'assets/apartamento-loma-bernal/07.webp', alt:'Habitación con muro en piedra · Loma de los Bernal', caption:'Habitación principal'},
-      {src:'assets/apartamento-loma-bernal/08.webp', alt:'Segunda habitación con clóset y ventana · Loma de los Bernal', caption:'Segunda habitación con clóset'},
-      {src:'assets/apartamento-loma-bernal/09.webp', alt:'Habitación con clóset en madera · Loma de los Bernal', caption:'Clóset en madera'},
+      {src:'assets/apartamento-loma-bernal/07.webp', alt:'Zona social con muro en piedra hacia la cocina · Loma de los Bernal', caption:'Zona social'},
+      {src:'assets/apartamento-loma-bernal/08.webp', alt:'Habitación principal con clóset en madera y ventana · Loma de los Bernal', caption:'Habitación principal con clóset'},
+      {src:'assets/apartamento-loma-bernal/09.webp', alt:'Segunda habitación con clóset · Loma de los Bernal', caption:'Segunda habitación con clóset'},
       {src:'assets/apartamento-loma-bernal/10.webp', alt:'Baño con división en vidrio · Loma de los Bernal', caption:'Baño con división en vidrio'}
     ],
     detailsHeading:'Características del apartamento',
