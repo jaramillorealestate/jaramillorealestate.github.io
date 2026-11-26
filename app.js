@@ -664,6 +664,44 @@ const pages = {
     hideUses:true,
     details:false
   }),
+  santuarioFinca: () => propertyPage({
+    draft:'DISPONIBLE · FINCA PRODUCTIVA',
+    name:'Finca productiva en Santuario',
+    location:'Santuario · Oriente Antioqueño, Colombia',
+    price:'$1.500.000.000 COP',
+    usd:'Precio en pesos colombianos por la finca completa de 7 hectáreas.',
+    heroImage:'assets/finca-santuario-el-morro/01.webp',
+    heroAlt:'Casa de la finca entre cultivos de granadilla y montañas en Santuario',
+    storyHeading:'Siete hectáreas con agua propia y un cultivo que ya produce.',
+    story:'Finca de unas 7 hectáreas en Santuario, Oriente Antioqueño, a unos 15 minutos del pueblo. Tiene nacimiento de agua propio, una quebrada dentro del terreno y un cultivo de granadilla en plena producción que se entrega con la finca. Incluye una casa campesina tradicional con corredor. Se vende únicamente como finca completa.',
+    facts:['≈ 7 ha','Nacimiento propio','Granadilla','Quebrada','Casa campesina','≈ 15 min'],
+    labels:['Área total','Agua','Cultivo en producción','Dentro de la finca','Construcción','Al pueblo de Santuario'],
+    recorridoHeading:'Conozca la finca en video',
+    videos:[{src:'assets/finca-santuario-el-morro/recorrido.mp4',poster:'assets/finca-santuario-el-morro/video-poster.jpg',title:'Recorrido de la finca productiva en Santuario'}],
+    gallery:[
+      {src:'assets/finca-santuario-el-morro/01.webp',alt:'Casa de la finca rodeada de cultivos en ladera',caption:'La finca y sus cultivos'},
+      {src:'assets/finca-santuario-el-morro/02.webp',alt:'Corredor de madera de la casa campesina',caption:'Corredor de la casa'},
+      {src:'assets/finca-santuario-el-morro/03.webp',alt:'Ladera sembrada con vista a las montañas',caption:'Cultivo en producción'},
+      {src:'assets/finca-santuario-el-morro/04.webp',alt:'Cultivos verdes en las laderas de la finca',caption:'Tierra productiva'},
+      {src:'assets/finca-santuario-el-morro/05.webp',alt:'Casa campesina con techo de teja',caption:'Casa campesina'},
+      {src:'assets/finca-santuario-el-morro/06.webp',alt:'Quebrada que pasa por la finca',caption:'Quebrada dentro de la finca'},
+      {src:'assets/finca-santuario-el-morro/07.webp',alt:'Paisaje de montaña del Oriente Antioqueño',caption:'Paisaje del Oriente'},
+      {src:'assets/finca-santuario-el-morro/08.webp',alt:'Carretera destapada de acceso a la finca',caption:'Vía de acceso'}
+    ],
+    detailsHeading:'Detalles de la finca',
+    fullDetails:[
+      ['Área','Aproximadamente 7 hectáreas. Se vende la finca completa; no se vende por partes.'],
+      ['Agua','Nacimiento de agua propio y una quebrada dentro de la finca.'],
+      ['Cultivo','Granadilla en producción, que se entrega con la finca.'],
+      ['Construcción','Casa campesina tradicional con corredor y servicio de luz.'],
+      ['Escrituras','Dos escrituras independientes, libres de gravámenes, que se negocian juntas.'],
+      ['Acceso','Carretera destapada en buen estado por la que entra cualquier vehículo.'],
+      ['Precio de venta','$1.500.000.000 COP por la finca completa. Escríbeme para recibir la ficha completa y coordinar una visita.']
+    ],
+    access:'Ubicada en Santuario, Oriente Antioqueño, a unos 15 minutos del pueblo y cerca de la autopista Medellín–Bogotá. La ruta de acceso y la ubicación exacta se comparten al coordinar una visita.',
+    hideUses:true,
+    details:false
+  }),
   copacabana: () => propertyPage({
     draft:'DISPONIBLE · LOTE URBANO',
     name:'Lote urbano en venta en Copacabana',
@@ -1184,6 +1222,7 @@ const pages = {
 function pageHero(title, text) { return `<section class="page-hero"><div class="container"><h1>${title}</h1><p class="lead">${text}</p></div></section>`; }
 
 function propertyCards() { return [
+  ['finca-productiva-santuario.html','Finca productiva en Santuario · $1.500 millones COP','Santuario · 7 ha · nacimiento propio · granadilla','assets/finca-santuario-el-morro/01.webp','Casa de la finca entre cultivos en Santuario','Disponible'],
   ['finca-vista-piedra-del-penol.html','Finca con vista a la Piedra del Peñol · $980 millones COP','El Peñol · 3.750 m² · 3 habitaciones · amoblada','assets/finca-penol/01.webp','Casa de la finca con corredor y vista a las montañas de El Peñol','Disponible'],
   ['apartamento-loma-de-los-bernal.html','Apartamento en Loma de los Bernal · $490 millones COP','Medellín · 57 m² · 2 habitaciones · 2 parqueaderos','assets/apartamento-loma-bernal/01.webp','Cocina integral abierta a la sala del apartamento en Loma de los Bernal','Disponible · negociable'],
   ['lotes-santuario.html','Lotes campestres en Santuario · desde $295 millones COP','Santuario · 7 lotes desde 3.928 m²','assets/lotes-santuario/foto-1.webp','Lote campestre con vista a las montañas en Santuario','Disponible'],
