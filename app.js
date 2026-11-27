@@ -547,6 +547,39 @@ const pages = {
   "hideUses": true,
   "details": false
 }),
+  lotePenolEmbalse: () => propertyPage({
+    draft:'DISPONIBLE · NEGOCIABLE',
+    name:'Lote con vista al embalse en El Peñol',
+    location:'El Peñol · Oriente Antioqueño, Colombia',
+    price:'$1.700.000.000 COP · negociable',
+    usd:'Precio de venta en pesos colombianos (≈ USD 400.000 como referencia).',
+    heroImage:'assets/lote-penol-embalse/01.webp',
+    heroAlt:'Vista panorámica al embalse desde el lote en El Peñol',
+    storyHeading:'Más de una hectárea frente al embalse.',
+    story:'Un lote de 10.168 m² en El Peñol con una vista abierta de 180 grados sobre el embalse y acceso propio al agua. Tiene vía en placa huella hasta el lote y está desocupado, listo para vender, en una de las zonas más buscadas del Oriente Antioqueño. Ideal para una casa de descanso o una inversión de largo plazo.',
+    facts:['10.168 m² / 109.448 ft²','Más de 1 ha','180°','Propio','Placa huella','Desocupado'],
+    labels:['Área del lote · 2,5 acres aprox.','Una hectárea larga','Vista panorámica al embalse','Acceso al embalse','Vía hasta el lote','Listo para vender'],
+    recorridoHeading:'Mira el lote y el embalse',
+    videos:[{src:'assets/lote-penol-embalse/recorrido.mp4', poster:'assets/lote-penol-embalse/video-poster.jpg', title:'Lote con vista al embalse en El Peñol · $1.700 millones COP'}],
+    gallery:[
+      {src:'assets/lote-penol-embalse/01.webp', alt:'Vista al embalse desde el lote, con guaduales y montañas · El Peñol', caption:'Vista al embalse'},
+      {src:'assets/lote-penol-embalse/02.webp', alt:'Vista aérea de la ladera y el embalse · lote en El Peñol', caption:'Vista aérea de la ladera y el embalse'}
+    ],
+    detailsHeading:'Características del lote',
+    fullDetails:[
+      ['Área','10.168 m² (más de una hectárea, unos 2,5 acres).'],
+      ['Vista','Vista panorámica de 180 grados sobre el embalse.'],
+      ['Acceso al embalse','Según la propietaria, el lote tiene acceso propio al embalse; no es por un camino de servidumbre.'],
+      ['Vía','Vía en placa huella hasta el lote.'],
+      ['Estado','Lote desocupado, listo para vender.'],
+      ['Precio','$1.700.000.000 COP, negociable.'],
+      ['Condiciones generales','Información suministrada por la propietaria. El comprador realiza su propia debida diligencia legal y técnica antes de avanzar.']
+    ],
+    accessHeading:'El Peñol, Oriente Antioqueño',
+    access:'Zona rural de El Peñol, en el Oriente Antioqueño, sobre el embalse. La ubicación exacta se comparte al agendar la visita.',
+    hideUses:true,
+    details:false
+  }),
   fincaPenol: () => propertyPage({
     draft:'DISPONIBLE · AMOBLADA',
     name:'Finca con vista a la Piedra del Peñol',
@@ -1223,6 +1256,7 @@ function pageHero(title, text) { return `<section class="page-hero"><div class="
 
 function propertyCards() { return [
   ['finca-productiva-santuario.html','Finca productiva en Santuario · $1.500 millones COP','Santuario · 7 ha · nacimiento propio · granadilla','assets/finca-santuario-el-morro/01.webp','Casa de la finca entre cultivos en Santuario','Disponible'],
+  ['lote-vista-embalse-el-penol.html','Lote con vista al embalse en El Peñol · $1.700 millones COP','El Peñol · 10.168 m² · acceso propio al embalse','assets/lote-penol-embalse/01.webp','Vista panorámica al embalse desde el lote en El Peñol','Disponible'],
   ['finca-vista-piedra-del-penol.html','Finca con vista a la Piedra del Peñol · $980 millones COP','El Peñol · 3.750 m² · 3 habitaciones · amoblada','assets/finca-penol/01.webp','Casa de la finca con corredor y vista a las montañas de El Peñol','Disponible'],
   ['apartamento-loma-de-los-bernal.html','Apartamento en Loma de los Bernal · $490 millones COP','Medellín · 57 m² · 2 habitaciones · 2 parqueaderos','assets/apartamento-loma-bernal/01.webp','Cocina integral abierta a la sala del apartamento en Loma de los Bernal','Disponible · negociable'],
   ['lotes-santuario.html','Lotes campestres en Santuario · desde $295 millones COP','Santuario · 7 lotes desde 3.928 m²','assets/lotes-santuario/foto-1.webp','Lote campestre con vista a las montañas en Santuario','Disponible'],
