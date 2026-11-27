@@ -580,6 +580,48 @@ const pages = {
     hideUses:true,
     details:false
   }),
+  fincaGuatape: () => propertyPage({
+    draft:'DISPONIBLE · AMOBLADA',
+    name:'Finca con vista a la Piedra en Guatapé',
+    location:'Guatapé · Oriente Antioqueño, Colombia',
+    price:'$2.400.000.000 COP',
+    usd:'Precio en pesos colombianos por los dos lotes (≈ USD 725.000 como referencia). La casa con su lote también se vende por separado en $2.000.000.000 COP. El propietario estudia permutas por una finca o lote bien ubicado en el Oriente Antioqueño.',
+    heroImage:'assets/finca-guatape/01.webp',
+    heroAlt:'Deck de la finca con vista a la represa de Guatapé y las montañas',
+    storyHeading:'Desde lo alto, toda la represa y la Piedra.',
+    story:'Una casa nueva de 3 años en la parte alta de Guatapé, con vista de 360° a la represa y a la Piedra del Peñol. Cuatro habitaciones, cada una con su baño, sala con chimenea y cocina abierta con paredes de vidrio hacia un deck enorme con jacuzzi. Al lado, un segundo lote plano con casa de mayordomo y entrada propia. Son dos lotes con escritura independiente, más de 8.000 m² en total, y se vende amoblada. Los clubes náuticos de la represa están a pocos minutos.',
+    facts:['Más de 8.000 m²','210 m²','4','4','Amoblada','Represa y Piedra'],
+    labels:['Dos lotes · 2 escrituras','Casa · 3 años de construida','Habitaciones','Baños (uno por habitación)','Se entrega con muebles','Vista de 360°'],
+    hideRecorrido:true,
+    gallery:[
+      {src:'assets/finca-guatape/01.webp', alt:'Deck en madera con baranda y vista a la represa de Guatapé', caption:'El deck y la vista a la represa'},
+      {src:'assets/finca-guatape/02.webp', alt:'Sala con chimenea y paredes de vidrio hacia el deck · finca en Guatapé', caption:'Sala con chimenea'},
+      {src:'assets/finca-guatape/03.webp', alt:'Jacuzzi en el deck con la Piedra del Peñol al fondo', caption:'Jacuzzi frente a la Piedra'},
+      {src:'assets/finca-guatape/04.webp', alt:'Cocina abierta con isla y vista a las montañas · finca en Guatapé', caption:'Cocina abierta con isla'},
+      {src:'assets/finca-guatape/05.webp', alt:'Habitación principal con pared en ladrillo y ventanal · finca en Guatapé', caption:'Habitación principal'},
+      {src:'assets/finca-guatape/08.webp', alt:'Habitación con dos camas y ventana · finca en Guatapé', caption:'Segunda habitación'},
+      {src:'assets/finca-guatape/09.webp', alt:'Habitación con dos camas y vista verde · finca en Guatapé', caption:'Tercera habitación'},
+      {src:'assets/finca-guatape/10.webp', alt:'Deck con asoleadoras y vista a las montañas de Guatapé', caption:'Deck con asoleadoras'},
+      {src:'assets/finca-guatape/11.webp', alt:'Casa y jardín de la finca en Guatapé', caption:'La casa y el jardín'},
+      {src:'assets/finca-guatape/12.webp', alt:'Vista de la represa de Guatapé desde la finca', caption:'La represa desde la finca'}
+    ],
+    detailsHeading:'Características de la finca',
+    fullDetails:[
+      ['Dos lotes, dos escrituras','Lote con la casa de 4.648 m² y lote plano de 3.355 m² al lado, cada uno con escritura y entrada independiente. Total: más de 8.000 m².'],
+      ['La casa','Casa de 210 m² y 3 años de construida: cuatro habitaciones, cada una con su baño, sala con chimenea, comedor y cocina abierta con isla, con paredes de vidrio hacia el deck.'],
+      ['Deck y jacuzzi','Deck enorme en madera con jacuzzi y vista a la represa y a la Piedra del Peñol.'],
+      ['Lote plano','Lote plano explanado con casa de mayordomo, con acceso propio por otra vía.'],
+      ['Se vende amoblada','Se entrega con sus muebles, salvo algunos objetos familiares que el propietario conserva.'],
+      ['Mayordomo','Hay mayordomo en la finca las 24 horas, que la cuida y la muestra en las visitas.'],
+      ['Servicios','Acueducto veredal, energía, internet por fibra, señal de celular y pozo séptico. Vía pavimentada hasta la entrada.'],
+      ['Precio y formas de pago','Los dos lotes: $2.400.000.000 COP. Solo la casa con su lote: $2.000.000.000 COP. Lote plano solo: $400.000.000 COP. El propietario estudia permutas por una finca o lote en el Oriente Antioqueño (Llanogrande, La Ceja, El Retiro), con diferencia en dinero. Lancha opcional, aparte.'],
+      ['Condiciones generales','El propietario reporta que no hay gravámenes y que el predial está al día. El comprador realiza su propia debida diligencia legal y técnica antes de avanzar.']
+    ],
+    accessHeading:'Guatapé, Oriente Antioqueño',
+    access:'Zona rural de Guatapé, a unos 45 minutos de la autopista Medellín–Bogotá y del Aeropuerto JMC, con vía pavimentada hasta la entrada. La ubicación exacta y las indicaciones de ingreso se comparten al coordinar una visita.',
+    hideUses:true,
+    details:false
+  }),
   fincaPenol: () => propertyPage({
     draft:'DISPONIBLE · AMOBLADA',
     name:'Finca con vista a la Piedra del Peñol',
@@ -1255,6 +1297,7 @@ const pages = {
 function pageHero(title, text) { return `<section class="page-hero"><div class="container"><h1>${title}</h1><p class="lead">${text}</p></div></section>`; }
 
 function propertyCards() { return [
+  ['finca-guatape-vista-piedra.html','Finca con vista a la Piedra en Guatapé · $2.400 millones COP','Guatapé · más de 8.000 m² · 4 habitaciones · amoblada','assets/finca-guatape/01.webp','Deck de la finca con vista a la represa de Guatapé','Disponible'],
   ['finca-productiva-santuario.html','Finca productiva en Santuario · $1.500 millones COP','Santuario · 7 ha · nacimiento propio · granadilla','assets/finca-santuario-el-morro/01.webp','Casa de la finca entre cultivos en Santuario','Disponible'],
   ['lote-vista-embalse-el-penol.html','Lote con vista al embalse en El Peñol · $1.700 millones COP','El Peñol · 10.168 m² · acceso propio al embalse','assets/lote-penol-embalse/01.webp','Vista panorámica al embalse desde el lote en El Peñol','Disponible'],
   ['finca-vista-piedra-del-penol.html','Finca con vista a la Piedra del Peñol · $980 millones COP','El Peñol · 3.750 m² · 3 habitaciones · amoblada','assets/finca-penol/01.webp','Casa de la finca con corredor y vista a las montañas de El Peñol','Disponible'],
