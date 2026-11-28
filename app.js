@@ -1224,7 +1224,8 @@ const pages = {
       ['Posibilidad de permuta','La propietaria consideraría como parte de pago un apartamento de hasta $700.000.000 COP, o dos apartamentos de características similares por un valor conjunto de hasta $1.400.000.000 COP. Sectores de interés: Ciudad del Río, Santa María de los Ángeles, Las Transversales, El Poblado, El Tesoro y Envigado. La valoración de los inmuebles, el saldo a pagar y cualquier propuesta concreta están sujetos a evaluación y aceptación expresa de la propietaria.']
     ],
     access:'Vereda La Mosquita, Guarne. La propietaria reporta un tiempo aproximado de cinco minutos hasta el Aeropuerto JMC. La dirección exacta, el nombre de la parcelación y las indicaciones de ingreso se comparten únicamente al coordinar una visita.',
-    gallery:GUARNE_CASA_PHOTOS,
+    // TEMP 11/28: gallery files were never uploaded (404). Restore GUARNE_CASA_PHOTOS once assets/guarne-casa-gallery/01_–19_ are added.
+    gallery:[{src:GUARNE_CASA_HERO, alt:'Fachada principal de la casa campestre en Guarne', caption:'Fachada principal'}],
     details:false
   }),
   romeral: () => propertyPage({
