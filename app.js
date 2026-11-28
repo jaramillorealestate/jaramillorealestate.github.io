@@ -338,7 +338,7 @@ const pages = {
     draft:'DISPONIBLE · PRECIO NEGOCIABLE',
     name:'Finca Bonilla',
     location:'Vereda Bonilla · El Peñol, Antioquia',
-    price:'$750.000.000 COP · negociables',
+    price:'$680.000.000 COP · negociables',
     usd:'La equivalencia en USD se calculará con la tasa vigente el día de la consulta.',
     heroImage:'assets/bonilla/hero-exterior.jpg',
     heroAlt:'Vista elevada de la casa principal, los jardines y las montañas en Finca Bonilla',
